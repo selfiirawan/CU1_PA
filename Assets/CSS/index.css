@@ -1,6 +1,7 @@
 body {
     color: #333;
     margin: 0;
+    box-sizing: border-box;
 }
 /* ===== NAVBAR ===== */
 .logo span {
@@ -15,6 +16,7 @@ body {
     background-position: center;
     background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
     color: #fff;
+    padding: 100px;
 }
 
 .hero p {
@@ -174,7 +176,12 @@ form {
 .contact ul {
     list-style: none;
     margin: 0;
+    margin-top: 30px;
     padding: 0;
+}
+
+.contact ul li {
+    margin-bottom: 10px;
 }
 
 /* ===== FOOTER ===== */
